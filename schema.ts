@@ -279,7 +279,7 @@ export interface components {
         proposer: string | null;
         task_number: string | null;
       }) | null;
-      /** @description Location ..ssof Physical Object // will also include messy dates. Information about the provenance, such as origin, ownership and custodial history (chain of custody), of a resource. */
+      /** @description Location of Physical Object // will also include messy dates. Information about the provenance, such as origin, ownership and custodial history (chain of custody), of a resource. */
       provenance: (string)[];
       /** @description Resource is available on Digital Collections. */
       published: boolean;
